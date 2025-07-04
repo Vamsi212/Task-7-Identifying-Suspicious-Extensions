@@ -48,4 +48,4 @@ Review and manage browser extensions to improve browser security and performance
 - Keep the number of extensions to a minimum to improve performance and reduce attack vectors.
 
 ## 📸 Screenshot
-![Browser Extensions Screenshot](./Screenshot.png)
+![Browser Extensions Screenshot](https://github.com/Vamsi212/Task-7-Identifying-Suspicious-Extensions/blob/3cf80070e40ee4c999e44c603b08b7d3f708890d/Screenshot%20(432).png))
