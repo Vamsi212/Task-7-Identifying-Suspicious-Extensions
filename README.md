@@ -1,3 +1,4 @@
+
 # Task 7 – Identifying and Removing Suspicious Browser Extensions
 
 ## 🔍 Objective
@@ -7,32 +8,44 @@ Review and manage browser extensions to improve browser security and performance
 - Google Chrome (`chrome://extensions`)
 
 ## 📝 Steps Followed
-1. Opened the browser’s extensions page.
+1. Opened the browser’s extensions manager.
 2. Reviewed all installed extensions.
-3. Verified permissions and reputation of each extension.
-4. Identified and removed suspicious or unused extensions.
-5. Restarted browser to observe any performance changes.
-6. Researched how malicious extensions pose security risks.
+3. Checked each extension’s purpose, reviews, and required permissions.
+4. Identified unused or suspicious extensions.
+5. Removed extensions that were unnecessary or risky.
+6. Researched how malicious extensions can steal data or track users.
 
 ## 🧼 Removed Extensions
 
 | Extension Name        | Reason for Removal                                    |
 |-----------------------|-------------------------------------------------------|
-| ZenMate VPN           | Not trusted by Google; privacy and data risk.         |
-| WPS PDF               | Mixed reviews; not essential for current use.         |
+| ZenMate VPN           | Not trusted by Google; potential privacy risk.        |
+| WPS PDF               | Mixed reviews; not essential; better alternatives exist. |
 
 ## ✅ Retained Extensions
 
 - Grammarly (Used regularly, trusted)
-- Grepper (Developer tool)
+- Grepper (Developer Q&A tool)
 - Pesticide (Debugging CSS)
-- Wappalyzer (Tech stack identification)
+- Wappalyzer (Tech stack identifier)
+
+## ⚠️ Examples of Known Dangerous Extensions (Research)
+
+| Extension Name              | Risk Description                                             |
+|----------------------------|--------------------------------------------------------------|
+| Hola VPN                   | Acts like a peer-to-peer botnet; unsafe data routing         |
+| PDF Converter Pro          | Injects ads, changes settings, installs without consent      |
+| Super Mario (unofficial)   | Steals browsing data, shows malicious ads                    |
+| iNewTab                    | Hijacks new tab page, collects sensitive user info           |
+| Flash Player for YouTube   | Steals browser history and injects tracking scripts          |
+| Weather Extensions (unknown devs) | Shares geolocation data with third parties             |
 
 ## 📚 Learnings
 
-- Always check extension permissions and developer credibility.
-- Some extensions can monitor browsing activity or access sensitive data.
-- Removing unused extensions boosts performance and reduces attack surface.
+- **Check permissions** like “Read and change all your data on websites” — it’s a red flag.
+- Malicious extensions can **steal passwords**, **inject ads**, and **track browsing activity**.
+- Always install from **trusted developers** and **official stores**.
+- Keep the number of extensions to a minimum to improve performance and reduce attack vectors.
 
 ## 📸 Screenshot
 ![Browser Extensions Screenshot](./Screenshot.png)
